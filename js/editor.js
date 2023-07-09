@@ -4,7 +4,7 @@ const category = document.querySelector('.category');
 const level = document.querySelector('.level');
 const time = document.querySelector('.time');
 const article = document.querySelector('.article');
-const publishBtn = document.querySelector('.publish-btn');
+const saveBtn = document.querySelector('.save-btn');
 const previewContainer = document.querySelector('.preview-container');
 
 article.addEventListener('input', () => {
@@ -13,7 +13,7 @@ article.addEventListener('input', () => {
   previewContainer.innerHTML = htmlContent;
 });
 
-publishBtn.addEventListener('click', () => {
+saveBtn.addEventListener('click', () => {
   const markdownContent = article.value;
   const htmlContent = convertMarkdownToHTML(markdownContent);
 
