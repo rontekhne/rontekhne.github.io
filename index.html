@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="google-site-verification" content="5isfsgs3BlwI4a88RzYyY4vh6Hhzs9Xuzr51Fd5t9HU" />
+    <meta name="robots" content="nosnippet">
+    <script src="./js/head.js"></script>
+    <title>RonTekhne</title>
+</head>
+<body>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/gallery.js"></script>
+
+    <div class="logo-container">
+        <div class="r main-title"></div>
+    </div>
+    <script>
+        /* handle main page animation logo */
+        function logoAnimation() {
+            var container = document.querySelector(".logo-container");
+            var logo = document.querySelector(".r");
+            logo.textContent = 'R';
+
+            window.addEventListener("scroll", function() {
+                container.classList.add("removed");
+                logo.classList.add("removed");
+             
+                setTimeout(function() {
+                    container.remove();
+                    logo.remove();
+                                        
+                }, 1000);
+            });
+        }
+
+        logoAnimation();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    <!-- Postagens recentes -->
+    <script src="./js/recent-posts.js"></script>
+
+    <!--div class="container reveal" style="margin-top: 1em;">
+        <div class="row p-3 mx-auto justify-content-center">
+                <div class="col-sm-4 mt-2">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/X4mN7Idl_Ig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="col-sm-4 mt-2" style=" text-align: justify; text-justify: distribute; hyphens: auto;">
+                   <h5>video title</h5>
+                    <p>
+                        <video description>
+                    </p>
+                </div>
+        </div>
+    </div-->
+    
+    <script src="./js/scroll.js"></script>
+    <script src="./js/footer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
