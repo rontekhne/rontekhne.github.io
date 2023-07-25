@@ -19,9 +19,6 @@ function navbar()
                 <a class="nav-link text-dark" href="./categories/games.html">Jogos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-dark" href="./categories/technology.html">Tecnologia</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link text-dark" href="./categories/varieties.html">Variedades</a>
             </li>
             <li class="nav-item">

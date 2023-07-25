@@ -1,5 +1,4 @@
 # RonTekhne
-- Ciências da Computação
+- Computação
 - Jogos
-- Tecnologias
 - Variedades
