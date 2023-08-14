@@ -4,7 +4,7 @@ function postNavbar()
     `
     <nav class="navbar navbar-expand-sm bg-light navbar-light">
         <div class="container-fluid">
-        <span onclick="transitionToPage('./../index.html')">
+        <span onclick="transitionToPage('./../../../index.html')">
             <h1 class="logo link">R</h1>
         </span>
         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
