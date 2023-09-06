@@ -8,10 +8,28 @@ function recentPosts()
 
             <div class="col-sm-3 mt-2">
                 <div class="card h-100 bg-light text-dark reveal">
+                    <div class="card-title text-center mt-3"><h3>Ignorância Natural</h3></div>
+                    <div class="card-body">
+                        <p>
+                        <p class="text-center"><small>Computação</small></p>
+                        <p>
+                            Quando me perguntam o que é Inteligência Artificial eu respondo com a resposta 
+                            que acho mais adequada em todos os sentidos: "Uma disciplina com diversos campos de estudo dentro da Ciência 
+                            da Computação". De fato, é disso que se trata...
+                        </p>
+                    </div>
+                    <div class="text-center p-3 mt-3">
+                        <button type="button link" class="btn" onclick="transitionToPage('./../posts/2023/m9/ignorancia_natural.html')">Leia mais...</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 mt-2">
+                <div class="card h-100 bg-light text-dark reveal">
                     <div class="card-title text-center mt-3"><h3>Arx</h3></div>
                     <div class="card-body">
                         <p>
-                        <p class="text-center"><small>Categoria: Jogos</small></p>
+                        <p class="text-center"><small>Jogos</small></p>
                         <p>
                             No jogo, o jogador assume o controle de Arx, uma bolha alva, e participa 
                             de uma batalha espacial contra bolhas Arxes coloridas. O objetivo principal 
@@ -31,7 +49,7 @@ function recentPosts()
                     <div class="card-title text-center mt-3"><h3>O Sentido do Sentido</h3></div>
                     <div class="card-body">
                         <p>
-                        <p class="text-center"><small>Categoria: Variedades</small></p>
+                        <p class="text-center"><small>Variedades</small></p>
                         <p>
                             Em algum momento da nossa vida nos deparamos com a dúvida
                             sobre o sentido das coisas. Algumas pessoas buscam sentido
