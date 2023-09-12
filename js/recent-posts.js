@@ -31,7 +31,7 @@ function recentPosts()
                         <p>
                         <p class="text-center"><small>Jogos</small></p>
                         <p>
-                            No jogo, o jogador assume o controle de Arx, uma bolha alva, e participa 
+                            Neste Arcade, você assume o controle de Arx, uma bolha alva, e participa 
                             de uma batalha espacial contra bolhas Arxes coloridas. O objetivo principal 
                             é estourar as bolhas Arxes e coletar suas almas. Quanto mais almas forem 
                             coletadas e mais Arxes forem derrotados, maiores serão as chances de alcançar 
