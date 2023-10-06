@@ -22,9 +22,6 @@ function postNavbar()
                 <a class="nav-link text-dark" href="./../../../categories/varieties.html">Variedades</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-dark" href="./../../../categories/solve_et_coagula.html">Solve et Coagula</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link text-dark" href="./../../../about.html">Sobre</a>
             </li>
             </ul>
