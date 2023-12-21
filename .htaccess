@@ -1,8 +1,6 @@
 RewriteEngine On
 
-# Redirecionar qualquer arquivo que não seja HTML para 404.html
-#RewriteCond %{REQUEST_URI} !\.(html)$
-#RewriteRule ^ /404.html [L,R=301]
+# redirect any file that is not HTML for 404.html
 
 RewriteCond %{REQUEST_URI} !/404.html$
 RewriteRule !\.(html)$ /404.html [L,R=301]

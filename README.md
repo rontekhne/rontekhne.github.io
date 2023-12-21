@@ -1,4 +1,2 @@
-# RonTekhne
-- Computação
-- Jogos
-- Variedades
+# Diga olá ao RonTekhne
+## Blog pessoal
