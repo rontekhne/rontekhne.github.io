@@ -94,6 +94,16 @@ section article a {
     border-radius: 5px;
 }
 
+.paragraph-center {
+    text-align: center;
+}
+
+.image-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 section article .read {
     text-decoration: none;
     padding: 10px;
