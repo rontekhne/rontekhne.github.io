@@ -4,6 +4,15 @@ function showIndexPosts()
     `
     <section>
         <article>
+            <h2>TUPIX</h2>
+            <p>
+                Há alguns meses iniciei um projeto para o processamento 
+                de linguagem Tupi, uma língua indígena morta brasileira. 
+                Neste artigo dettalharei todo o processo. 
+            </p>
+            <a class="read" href="/post/27-12-2023_tupix.html">LER</a>
+        </article>
+        <article>
             <h2>ARX ARCADE 2D</h2>
             <p> 
                 Os arxes roubaram as almas da galáxia. Você como 
@@ -22,16 +31,6 @@ function showIndexPosts()
                 no smartphone pelo App?
             </p>
             <a class="read" href="/post/11-09-2023_rontekhne_para_android.html">LER</a>
-        </article>
-        <article>
-            <h2>DIGA OLÁ!</h2>
-            <p>
-                Nesta primeira postagem o Ron explica o motivo 
-                da criação do blog, suas dúvidas sobre a forma 
-                de escrita, seu propósito e intenções. Quer saber
-                o que é o RonTekhne? 
-            </p>
-            <a class="read" href="/post/23-12-2023_diga_ola.html">LER</a>
         </article>
     </section>
     `;
