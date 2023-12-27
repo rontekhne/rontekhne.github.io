@@ -8,7 +8,7 @@ function showIndexPosts()
             <p>
                 Há alguns meses iniciei um projeto para o processamento 
                 de linguagem Tupi, uma língua indígena morta brasileira. 
-                Neste artigo dettalharei todo o processo. 
+                Neste artigo documentarei todo o processo. 
             </p>
             <a class="read" href="/post/27-12-2023_tupix.html">LER</a>
         </article>
