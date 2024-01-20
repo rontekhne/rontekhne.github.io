@@ -3,7 +3,7 @@ function showPosts()
     let posts = 
     `
     <section>
-    <article>
+        <article>
             <h2>TUPIX</h2>
             <p>
                 Há alguns meses iniciei um projeto para o processamento 
