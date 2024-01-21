@@ -4,7 +4,7 @@ function showPosts()
     `
     <section>
         <article>
-            <h2>TUPIX</h2>
+            <h2>TUPI</h2>
             <p>
                 Há alguns meses iniciei um projeto para o processamento 
                 de linguagem Tupi, uma língua indígena morta brasileira. 
