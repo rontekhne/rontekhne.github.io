@@ -4,15 +4,6 @@ function showIndexPosts()
     `
     <section>
         <article>
-            <h2>TUPI</h2>
-            <p>
-                Há alguns meses iniciei um projeto para o processamento 
-                de linguagem Tupi, uma língua indígena morta brasileira. 
-                Neste artigo documentarei todo o processo. 
-            </p>
-            <a class="read" href="/post/27-12-2023_tupix.html">LER</a>
-        </article>
-        <article>
             <h2>ARX ARCADE 2D</h2>
             <p> 
                 Os arxes roubaram as almas da galáxia. Você como 
