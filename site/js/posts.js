@@ -4,6 +4,16 @@ function showPosts()
     `
     <section>
         <article>
+            <h2>OITOP</h2>
+            <p> 
+                O quebra-cabeças de 8 peças, como o nome diz, possui 8 peças, 
+                composta por uma base para 9 lugares. O objetivo do jogo é mudar 
+                as peças numeradas de lugar até que forme o padrão sequencial de 
+                1 até 8.
+            </p>
+            <a class="read" href="/post/02-01-2024_oitop.html">LER</a>
+        </article>
+        <article>
             <h2>ARX ARCADE 2D</h2>
             <p> 
                 Os arxes roubaram as almas da galáxia. Você como 
