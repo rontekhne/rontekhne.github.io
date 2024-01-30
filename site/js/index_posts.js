@@ -9,7 +9,7 @@ function showIndexPosts()
                 O CX3 é um curso introdutório de programação em C com 
                 o intuito de ensinar a programação de computadores, 
                 estruturas de dados, algoritmos e desenvolvimento de jogos 
-                com qualidade e de forma gratuita. Em breve!
+                com qualidade e de forma gratuita!
             </p>
             <a class="read" href="/post/04-02-2024_cx3.html">LER</a>
         </article>
