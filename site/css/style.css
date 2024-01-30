@@ -150,3 +150,16 @@ footer a {
     border-radius: 5px;
 }
 /* end footer */
+
+/* Misc */
+.alink-clean
+{
+    text-decoration: none;
+    border: none;
+}
+
+.emoji-black
+{
+    color: transparent;  
+    text-shadow: 0 0 0 #111;
+}

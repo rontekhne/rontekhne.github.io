@@ -7,7 +7,7 @@ function showFooter()
         <p>RonTekhne é uma inciativa de Ron</p>
         <p>Para a política de privacidade clique 
         <a href="/site/src/privacy/rontekhne_privacy.html">aqui</a></p>
-        <img width="30" height="30" src="/site/img/github.png" alt="github icon">
+        <a class="alink-clean" href="https://github.com/rontekhne" target="_blank"><img src="/site/img/github.png" alt="github icon"></a>
     </footer>
     `;
     document.write(footer);
