@@ -34,7 +34,7 @@
                 <p>
                     Nesta primeira aula, vamos instalar o Arch Linux no Virtual Box, instalar 
                     o compilador GCC, o depurador GDB, o auxiliar de compilação Make e o editor Vim. 
-                    A configuração do iwd (gerenciador de WiFi) e a remoção da iso de instalação do Arch Linux 
+                    A configuração do dhcpcd (Dynamic Host) e a remoção da iso de instalação do Arch Linux 
                     serão apresentadas na próxima aula.
                 </p>
                 <details>
@@ -53,22 +53,25 @@
         <article>
             <details>
                 <summary>História</summary>
-                <!--div class="iframe">
-                    <iframe src="" title="História" frameborder="0" allow="accelerometer; fullscreen; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>      
-                </div-->
-                <div class="image-center">
-                    <img src="../../site/img/lock.png" alt="Lock">
+                <div class="iframe">
+                    <iframe src="https://www.youtube.com/embed/VklS38awbus?si=QVUYcgkzsKHY9kRp" title="História" frameborder="0" allow="accelerometer; fullscreen; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>      
                 </div>
 
                 <p>
                     Quem criou? Por que criou? Para que serve?
-                    Por que eu aprenderia C se existe Python?
-                    Essas e outras perguntas serão respondidas neste vídeo. 
+                    Essas e outras perguntas serão respondidas neste vídeo.
+                    Errata: antes de habilitar o dhcpcd, levante a interface de rede 
+                    como o comando [ip link set dev enp3s0 up] sem os colchetes, onde 
+                    enp3s0 é o nome da interface. Para descobrir o nome da interface 
+                    digite: [ip a]. 
                 </p>
                 <details>
                     <summary>Exercício 1.2</summary>
                     <ol>
-                        <li>Pesquise sobre: (xv6)</li>
+                        <li>Pesquise sobre: (xv6). Tente instalar um compilador 
+                            cruzado no seu host e compilar o xv6 (Este exercício é 
+                            avançado e somente será abordado no módulo 17).
+                        </li>
                     </ol>
                 </details>
             </details>
