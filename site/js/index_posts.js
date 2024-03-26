@@ -3,7 +3,7 @@ function showIndexPosts()
     let posts = 
     `
     <section>
-        <article>
+        <!--article>
             <h2>CX3</h2>
             <p> 
                 O CX3 é um curso introdutório de programação em C com 
@@ -12,7 +12,7 @@ function showIndexPosts()
                 com qualidade e de forma gratuita!
             </p>
             <a class="read" href="/post/04-02-2024_cx3.html">LER</a>
-        </article>
+        </article-->
         <article>
             <h2>OITOP</h2>
             <p> 

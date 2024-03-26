@@ -4,13 +4,13 @@ function showPosts()
     `
     <section>
         <article>
-            <h2>CX3</h2>
+            <!--h2>CX3</h2>
             <p> 
                 O CX3 é um curso introdutório de programação em C com 
                 o intuito de ensinar a programação de computadores, 
                 estruturas de dados, algoritmos e desenvolvimento de jogos
                 com qualidade e de forma gratuita!
-            </p>
+            </p-->
             <a class="read" href="/post/04-02-2024_cx3.html">LER</a>
         </article>
         <article>
