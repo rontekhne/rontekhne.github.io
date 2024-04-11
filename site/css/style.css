@@ -105,6 +105,11 @@ section article a {
     justify-content: center;
 }
 
+.post-card-img {
+    float: left;
+    margin-right: 20px;
+}
+
 section article .read {
     text-decoration: none;
     padding: 10px;
