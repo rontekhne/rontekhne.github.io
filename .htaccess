@@ -1,8 +1,8 @@
 RewriteEngine On
 
 # Exception for file /well-known/atproto-did be served as plain/text
-RewriteCond %{REQUEST_URI} ^/\.well-known/atproto-did$
-RewriteRule ^ - [L,T=text/plain]
+#RewriteCond %{REQUEST_URI} ^/\.well-known/atproto-did$
+#RewriteRule ^ - [L,T=text/plain]
 
 # Redirect any other file to 404.html
 #RewriteCond %{REQUEST_URI} !/404.html$
