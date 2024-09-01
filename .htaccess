@@ -5,6 +5,6 @@ RewriteCond %{REQUEST_URI} ^/\.well-known/atproto-did$
 RewriteRule ^ - [L,T=text/plain]
 
 # Redirect any other file to 404.html
-RewriteCond %{REQUEST_URI} !/404.html$
-RewriteCond %{REQUEST_URI} !^/\.well-known/atproto-did$
-RewriteRule !\.(html|js|css|png)$ /404.html [L,R=301]
+#RewriteCond %{REQUEST_URI} !/404.html$
+#RewriteCond %{REQUEST_URI} !^/\.well-known/atproto-did$
+#RewriteRule !\.(html|js|css|png)$ /404.html [L,R=301]
