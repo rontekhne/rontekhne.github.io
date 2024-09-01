@@ -1,9 +1,7 @@
 RewriteEngine On
 
 # Serves  /well-known/atproto-did as plain/text
-<Files "/well-known/atproto-did">
-    ForceType text/plain
-</Files>
+RewriteRule ^\.well-known/atproto-did$ - [L,T=text/plain]
 
 # redirect any file that is not HTML for 404.html
 
