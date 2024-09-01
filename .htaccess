@@ -1,9 +1,12 @@
 RewriteEngine On
 
-# Serves  /well-known/atproto-did as plain/text
-RewriteRule ^\.well-known/atproto-did$ - [L,T=text/plain]
+RewriteEngine On
 
-# redirect any file that is not HTML for 404.html
+# Exception for file /well-known/atproto-did be served as plain/text
+RewriteCond %{REQUEST_URI} ^/\.well-known/atproto-did$
+RewriteRule ^ - [L,T=text/plain]
 
+# Redirect anybother file to 404.html
 RewriteCond %{REQUEST_URI} !/404.html$
+RewriteCond %{REQUEST_URI} !^/\.well-known/atproto-did$
 RewriteRule !\.(html|js|css|png)$ /404.html [L,R=301]
